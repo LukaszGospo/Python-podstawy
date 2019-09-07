@@ -1,0 +1,12 @@
+print("Pierwsza linijka \nDruga Linijka")
+print("Wyswietl cudzysłów \"")
+phrase = "Gospo"
+print(phrase + " jest Cool")
+print("Małe Litery: " + phrase.lower())
+print("Duże Litery: " + phrase.upper())
+print("Czy tylko małe litery: " + phrase.islower().__str__())
+print("Duże Litery, czy duże litery: " + phrase.upper().isupper().__str__())
+print("Długość: " + len(phrase).__str__())
+print("Pierwsza litera po tablicy: " + phrase[0])
+print("Index 's': " + phrase.index("s").__str__())
+print("Zamień po: " + phrase.replace("po", "po jest Cool").__str__())
